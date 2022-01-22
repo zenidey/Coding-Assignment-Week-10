@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assignment10.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body class="bg font-weight-light">
+
+<!-- NAV BAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="images/2.png" width="40" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">explore <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">conquered </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          new adventure
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">flight</a>
+          <a class="dropdown-item" href="#">stay</a>
+          <a class="dropdown-item" href="#">experience</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<div class="container pt-5 mt-5">
+
+  <div class="row">
+
+    <div class="col-sm">
+      <img src="images/1.png" class="rounded mx-auto d-block" width="450" alt="">
+    </div>
+
+    <div class="col-sm">
+      <div class="card ">
+        <div class="card-header text-center">create your bucket list.</div>
+        <div class="card-body">
+            <!-- <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="arrival-date">arrival</label>
+                        <input type="date" class="form-control" id="arrival-date">
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="form-group">
+                      <label for="arrival-date">arrival</label>
+                      <input type="date" class="form-control" id="arrival-date">
+                </div>
+              </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-task">destination</label>
+                        <input type="text" class="form-control" id="new-task" placeholder="location">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm">
+                  <div class="form-group">
+                      <label for="new-experience">experience</label>
+                      <input type="text" class="form-control" id="new-experience" placeholder="experience">
+                  </div>
+              </div>
+            </div>
+
+            <div>
+                <button id="add" class="btn btn-secondary btn-xs">+ to bucket!</button> 
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+  </div><br>
+
+
+<!-- TABLE -->
+
+<table id="list" class="table table-hover mb-5">
+    <tr>
+        <th class="font-weight-normal text-center"></th>
+        <th class="font-weight-normal text-center">destination</th>
+        <th class="font-weight-normal text-center">experience</th>
+        <th class="font-weight-normal text-center">date added</th>
+        <th class="font-weight-normal text-center">crossing off</th>
+    </tr>
+</table>
+<br>
+
+
+
+<!-- FOOTER -->
+
+<footer class="container text-center text-white mt-5 pt-5">
+  <div>
+    <a class="btn btn-outline-light m-4" href="#"><i class="fab fa-facebook-f"></i></a>
+
+    <a class="btn btn-outline-light m-4" href="#"><i class="fab fa-twitter"></i></a>
+
+    <a class="btn btn-outline-light m-4" href="#"><i class="fab fa-instagram"></i></a>
+
+    <a class="btn btn-outline-light m-4" href="#"><i class="fab fa-google"></i></a>
+
+    <a class="btn btn-outline-light m-4" href="#"><i class="fab fa-pinterest"></i></a>
+  </div>
+
+  <div class="container-fluid text-center mb-5">
+    © 2021 Copyright:
+    <a class="text-white" href="#">liveyourbestlife.com</a>
+  </div>
+</footer>
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="assignment10.js"></script>
+
+</body>
+</html>
+
